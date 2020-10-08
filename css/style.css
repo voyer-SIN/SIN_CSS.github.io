@@ -17,32 +17,31 @@ header
 
 article
 {
-
+    margin-left: 16px;
 }
 
 aside
 {
-
+    margin-right: 16px;
 }
 
 footer
 {
-  padding: 1em;
+  padding: 16px;
 
 }
 
-footer h1, nav a
+#titre_principal h1
 {
-    font-weight: normal;
+
 }
 
-#logo
+.logo
 {
-    display: flex;
-    align-items: center;
+
 }
 
-#logo img
+.logo img
 {
     width: auto;
     height: 60px;
@@ -50,8 +49,8 @@ footer h1, nav a
 
 header h1, article h1, nav a
 {
-    font-size: 1.5em;   /*taille de la polise h1 en fonction de la police de base 1,5 fois + grand*/
-    margin: 1em;
+    font-size: 24px;
+    margin: 16px;
 }
 
 nav ul
@@ -67,7 +66,7 @@ nav li
 
 nav a
 {
-    font-size: 1.3em;
+    font-size: 20px;
     color: #2f2d29;
     padding-bottom: 3px;
     text-decoration: none;
@@ -80,12 +79,14 @@ nav a:hover
 
 #banniere_image
 {
-    height: 200px;
+  width : auto;
+  height: 240px;
+
 }
 
 article,  aside
 {
-    text-align: justify;
+
 }
 
 article
@@ -93,15 +94,11 @@ article
     margin-right: 20px;
 }
 
-article p
+article,aside p
 {
-    font-size: 0.8em;
+    font-size: 16px;
 }
 
-article h1
-{
-    text-align: left;
-}
 aside
 {
     background-color: ; /*définition de la couleur du fond du aside*/
@@ -109,13 +106,13 @@ aside
     border-radius: 5px;
     padding: 10px;
     color: ; /*couleur de la police du aside*/
-    font-size: 0.9em;
+    font-size: 14px;
 }
 
 aside h1
 {
-    text-align: center;
-    font-size: 1.5em
+
+    font-size: 24px;
 }
 
 .liens
@@ -140,30 +137,6 @@ aside img
     margin-right: 5px;
 }
 
-table
-{
-  border: 1;
-  border-spacing: 0;
-  width: 100%;
-  border: 4px solid #afafaf;
-}
-
-th
-{
-  text-align: center;
-  padding: 1em;
-}
-
-td
-{
-  text-align: left;
-  padding: 1em;
-}
-
-tr
-{
-  background-color: ; /*définition de la couleur du fond des lignes du tableau*/
-}
 
 #social
 {
@@ -172,33 +145,18 @@ tr
 
 footer p, footer ul
 {
-    font-size: 0.8em;
+    font-size: 13px;
 }
 
 footer h1
 {
-    font-size: 1.1em;
-}
-
-#videos
-{
-    width: 31%;
-}
-
-#des_photos
-{
-    width: 35%;
-}
-
-#sites_interessants
-{
-    width: 31%;
+    font-size: 18px;
 }
 
 #des_photos img
 {
     border: 1px solid #181818;
-    margin-right: 1.2em;
+    margin-right: 20px;
 }
 
 #listes_sites
@@ -210,11 +168,11 @@ footer h1
 #sites_interessants ul
 {
     list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 1.5em;
+    padding-left: 24px;
 }
 
 #sites_interessants a
 {
-  text-decoration: ; /*permet de souligner, surligner ou barrer un texte*/
-  color: ; /*définition de la couleur de la police des liens footer*/
+  text-decoration: none ;
+  color: #760001 ;
 }
